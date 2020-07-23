@@ -1,0 +1,328 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder-Survey</title>
+  <base href="/">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link type="text/css" href="../assets/css/style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1><svg class="bi bi-chat-square-dots-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 2a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2h-2.5a1 1 0 00-.8.4l-1.9 2.533a1 1 0 01-1.6 0L5.3 12.4a1 1 0 00-.8-.4H2a2 2 0 01-2-2V2zm5 4a1 1 0 11-2 0 1 1 0 012 0zm4 0a1 1 0 11-2 0 1 1 0 012 0zm3 1a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+      </svg></i> Survey Questions</h1>
+      <hr>
+      <h3>Answer a few basic questions to find out what kind of Dragon you are!</h3>
+      <br>
+      <div>
+
+        <a href="/"><button type="button" class="btn btn-lg btn-primary">
+            <h4><span class="glyphicon glyphicon-list-alt"></span> Home</h4>
+          </button></a>
+
+      </div>
+
+      <div class='panel-body'>
+        <form class='form-group' action="" method="POST" role="form">
+          <!-- ==========ABOUT YOU ========================================= -->
+
+          <h2><strong>About You</strong></h2>
+          <h4>Name (Required)</h4>
+          <input type="text" id="name" class="form-control" required="">
+
+          <h4>Email (Required)</h4>
+          <input type="email" id="email" class="form-control" required="">
+
+          <hr>
+          <!-- ==========QUESTION 1 ========================================= -->
+
+          <h4><strong>Question 1: You have a Dragon tattoo.</strong></h4>
+          <select class="form-control" id="q1" required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 2 ========================================= -->
+
+          <h4><strong>Question 2: You love hunting. </strong></h4>
+          <select class="form-control" id="q2"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 3 ========================================= -->
+
+          <h4><strong>Question 3: You prefer dark colors.</strong></h4>
+          <select class="form-control" id="q3"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 4 ========================================= -->
+
+          <h4><strong>Question 4: Your favorite superhero is Captain Marvel.</strong></h4>
+          <h4></h4>
+          <select class="form-control" id="q4"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 5 ========================================= -->
+
+          <h4><strong>Question 5: You are motivated by money and ambition.</strong></h4>
+          <select class="form-control" id="q5"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 6 ========================================= -->
+
+          <h4><strong>Question 6: When you go to the movies you prefer comedites.</strong></h4>
+          <select class="form-control"  id="q6" required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 7 ========================================= -->
+
+          <h4><strong>Question 7: You like detective shows like Sherlock and Law & Order.</strong></h4>
+          <select class="form-control" id="q7"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 8 ========================================= -->
+
+          <h4><strong>Question 8: You like the Disney movie Mulan.</strong></h4>
+          <select class="form-control" id="q8"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+
+          <!-- ==========QUESTION 9 ========================================= -->
+
+          <h4><strong>Question 9: You prefer free spirited / creative traits in people.</strong></h4>
+          <select class="form-control" id="q9"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <!-- ==========QUESTION 10 ========================================= -->
+
+          <h4><strong>Question 10: You prefer to live in the pacific southwest.</strong></h4>
+          <select class="form-control" id="q10"  required="">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+        </form>
+      </div>
+      <br>
+      <br>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+          aria-hidden="true" data-target=""></i>
+        Submit</button>
+
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/leeretk/friendfinder">GitHub
+              Repo</a></p>
+        </div>
+      </footer>
+    </div>
+    <hr>
+
+    <!-- ======================= MODAL ======================= -->
+    <!-- Modal -->
+    <div class="modal fade" id="matchResults" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Meet your Dragon!</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <h2 id='matchName'></h2>
+            <img id="matchImage" src="" alt="No Image Found">
+            <h5 id='matchDescription'></h5>
+
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================SCRIPT==================+==== -->
+    <script type="text/javascript">
+
+      //1) SUBMIT DATA FROM FORM 
+      //2) GET SCORES AND SCORE TOTAL
+      //4) MATCH SCORES 
+      //5) DISPLAY MODAL NAME AND PICTURE OF MATCH
+
+      // ==========================================
+      // Validate fields are completely filled out
+      var allFieldsCompleted;
+
+      $(document).ready(function () {
+        $('#submit').on('click', function (event) {
+            event.preventDefault(),
+            validateUserInput(function () {
+            if (allFieldsCompleted) {
+              collectInputs();
+            }
+            else {
+              alert('Please complete all fields before submitting!');
+            }
+          }); 
+        }); 
+      
+      // ==========================================
+      // Function to valid user input (loop through each Question)
+      function validateUserInput(callback) {
+        var questionsCompleted;
+        $('.chosen-select').each(function () {
+          if ($(this).val() == "") {
+            questionsCompleted = false;
+          }
+        }).promise().done(function () {
+          if ($(this).val() === "") {
+            questionsCompleted = false;
+          }
+        }).promise().done(function () {
+          if (questionsCompleted == false) {
+            allFieldsCompleted = false;
+          } else if ($('#name').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#email').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q1').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q2').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q3').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q4').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q5').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q6').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q7').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q8').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q9').val().trim() == "") {
+            allFieldsCompleted = false;
+          } else if ($('#q10').val().trim() == "") {
+            allFieldsCompleted = false;
+          }
+          else {
+            allFieldsCompleted = true;
+          }
+          callback();
+        });
+      }
+      // ==========================================
+      // Function to collect user input
+      function collectInputs() {
+        console.log("collect inputs started");
+         var newFriend = {
+              name: $("#name").val().trim(),
+              email: $("#email").val().trim(),
+              scores: [  
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val() 
+              ],
+            }; //end new friend object 
+
+            console.log(newFriend);
+
+          $.post("/api/friends", newFriend, function (data) {
+            // Best Match 
+            $('#matchName').text(data.name);
+            $('#matchImage').attr('src', data.photo);
+            $('#matchDescription').text(data.description);
+            $("#matchResults").modal('toggle');
+         });// end AJAX POST
+      };     
+    }); // document ready
+    </script>
+
+</body>
+
+</html>
