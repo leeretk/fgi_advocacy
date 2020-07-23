@@ -1,0 +1,10 @@
+.navbar {
+    font-size: 60px;
+    color: white;
+    background-color: rgb(39,79,114);
+    }
+.sticky {
+    position: fixed;
+    margin-top: 0px;
+    width: 100%
+  }
