@@ -1,13 +1,13 @@
 const router = require("express").Router();
 const userRoutes = require("./users");
-const workoutRoutes = require("./workouts");
-const movementRoutes = require("./movements");
-const programRoutes = require("./programs")
+const billRoutes = require("./bill");
+const blogRoutes = require("./blog");
+const surveyRoutes = require("./survey")
 
 
 router.use("/users", userRoutes);
-router.use("/workouts",workoutRoutes);
-router.use("/movements",movementRoutes);
-router.use("/programs",programRoutes)
+router.use("/bill",billRoutes);
+router.use("/blog",blogRoutes);
+router.use("/survey",surveyRoutes)
 
 module.exports = router;

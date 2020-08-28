@@ -1,6 +1,6 @@
 module.exports = {
   User: require("./user"),
-  Workout: require("./workout"),
-  Movement: require("./movement"),
-  Program: require("./program")
+  Workout: require("./bill"),
+  Movement: require("./blog"),
+  Program: require("./survey")
 };
