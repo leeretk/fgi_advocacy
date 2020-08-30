@@ -16,6 +16,7 @@ function apiRoutes(app) {
     var bestMatch = {
       name: "",
       email: "",
+      advocate: "",
       advocateDifference: Infinity
     };
     // Here we take the result of the user"s survey POST and parse it.
@@ -39,7 +40,7 @@ function apiRoutes(app) {
       // If the sum of differences is less then the differences of the current "best match"
       if (totalDifference <= bestMatch.advocateDifference) {
         // Reset the bestMatch to be the new advocate.
-        bestMatch.name = currentAdvocate.name;
+        bestMatch.advocate = currentAdvocate.advocate;
         bestMatch.photo = currentAdvocate.photo;
         bestMatch.description = currentAdvocate.description;
         bestMatch.advocateDifference = totalDifference;
