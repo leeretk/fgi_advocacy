@@ -17,6 +17,7 @@ function apiRoutes(app) {
       advocate: "",
       name: "",
       email: "",
+      photo: "",
       advocateDifference: Infinity
     };
     // Here we take the result of the user"s survey POST and parse it.
