@@ -14,7 +14,7 @@ var advocatesData = [
         name: 'Kamy Leeret',
         advocate: 'Powerful Writer Advocate',
         email: 'kamy@leeret.com',
-        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/2_chinese-fireball.jpg',
+        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/womansSuffrageAdovcate.jpg',
         scores: [2, 1, 2, 3, 1, 1, 1, 2, 2, 2],
         description: 'A powerful writer advocate is someone who......'
     },
@@ -22,7 +22,7 @@ var advocatesData = [
         name: 'Kamy Leeret',
         advocate: 'Group Leader / Organizing Advocate',
         email: 'kamy@leeret.com',
-        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/3_ukranian-ironbelly.jpg',
+        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/martinLutherKingAdvocate.jpg',
         scores: [3, 4, 1, 1, 3, 1, 2, 2, 3, 1],
         description: 'A group leader / organizing advocate is someone who......'
     },
@@ -30,7 +30,7 @@ var advocatesData = [
         name: 'Kamy Leeret',
         advocate: 'Collaborative Advocate',
         email: 'kamy@leeret.com',
-        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/4_hungarian-horntail.jpg',
+        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/nelsonMandelaAdvocate.jpg',
         scores: [4, 4, 3, 2, 3, 2, 2, 2, 1, 1],
         description: 'A collaborative advocate is someone who......'
     },
@@ -38,7 +38,7 @@ var advocatesData = [
         name: 'Kamy Leeret',
         advocate: 'Supportive Advocate',
         email: 'kamy@leeret.com',
-        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/5_smaug.jpg',
+        photo: 'https://raw.githubusercontent.com/leeretk/AdvocateFinder/master/app/assets/images/motherTheresaAdovcate.jpg',
         scores: [4, 3, 5, 2, 1, 2, 2, 2, 1, 2],
         description: 'A supportive advocate is someone who......'
     },
