@@ -14,9 +14,9 @@ function apiRoutes(app) {
   
   app.post("/api/advocates", function(req, res) {
     var bestMatch = {
+      advocate: "",
       name: "",
       email: "",
-      advocate: "",
       advocateDifference: Infinity
     };
     // Here we take the result of the user"s survey POST and parse it.
@@ -29,7 +29,7 @@ function apiRoutes(app) {
     for (var i = 0; i < advocatesData.length; i++) {
       var currentAdvocate = advocatesData[i];
       totalDifference = 0;
-      console.log(currentAdvocate.name);
+      console.log(currentAdvocate.advocate);
       // We then loop through all the scores of each advocate
       for (var j = 0; j < currentAdvocate.scores.length; j++) {
         var currentAdvocateScore = currentAdvocate.scores[j];
@@ -41,6 +41,7 @@ function apiRoutes(app) {
       if (totalDifference <= bestMatch.advocateDifference) {
         // Reset the bestMatch to be the new advocate.
         bestMatch.advocate = currentAdvocate.advocate;
+        bestMatch.name = currentAdvocate.name;
         bestMatch.photo = currentAdvocate.photo;
         bestMatch.description = currentAdvocate.description;
         bestMatch.advocateDifference = totalDifference;

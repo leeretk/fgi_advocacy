@@ -40,9 +40,6 @@
           <h4>Email (Required)</h4>
           <input type="email" id="email" class="form-control" required="">
 
-          <h4>Advocate</h4>
-          <input type="text" id="advocate" class="form-control" required="">
-
           <hr>
           <!-- ==========QUESTION 1 ========================================= -->
 
@@ -157,9 +154,14 @@
       <br>
 
       <!-- Submit Button -->
+
+
       <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
           aria-hidden="true" data-target=""></i>
         Submit</button>
+
+        <h4>Advocate</h4>
+        <input type="text" id="advocate" class="form-control" required="">
 
       <footer class="footer">
         <div class="container">
@@ -184,7 +186,7 @@
           </div>
           <div class="modal-body">
 
-            <h2 id='matchName'></h2>
+            <h2 id='matchAdvocate'></h2>
             <img id="matchImage" src="" alt="No Image Found">
             <h5 id='matchDescription'></h5>
 
@@ -294,7 +296,7 @@
 
           $.post("/api/advocates", newAdvocate, function (data) {
             // Best Match 
-            $('#matchName').text(data.name);
+            $('#matchAdvocate').text(data.advocate);
             $('#matchImage').attr('src', data.photo);
             $('#matchDescription').text(data.description);
             $("#matchResults").modal('toggle');
