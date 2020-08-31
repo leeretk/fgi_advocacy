@@ -2,7 +2,17 @@ img {
 	width: 450px;
     height: 450px;
 }
+.imgLogo {
+    width: max-content;
+    float: left;
+}
+.nav {
+    background-color: black;
+}
 
+.nav-link {
+    color: white;
+}
 h2 {
     text-align: center;
     font-weight: bold;

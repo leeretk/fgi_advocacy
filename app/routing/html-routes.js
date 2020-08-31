@@ -10,4 +10,8 @@ module.exports = function (app) {
     response.sendFile(path.join(__dirname + '/../public/survey.html'));
   });
 
+  app.get('/blog', function (request, response) {
+    response.sendFile(path.join(__dirname + '/../public/blog.html'));
+  });
+
 };
