@@ -1,7 +1,9 @@
 .nav-link {
     color: white;
 }
-
+.btn {
+    background-color: rgb(237, 24, 73);
+}
 h2 {
     text-align: center;
     font-weight: bold;
@@ -13,6 +15,9 @@ h5 {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+}
+.carousel-caption {
+    color: rgb(237, 24, 73);
 }
 .carousel-container {
     height: 50%;
