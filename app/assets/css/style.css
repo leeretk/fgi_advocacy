@@ -1,31 +1,29 @@
 img {
-	width: 450px;
-    height: 450px;
-}
-.imgLogo {
-    width: max-content;
-    float: left;
-}
-.nav {
-    background-color: black;
+	width: 200px;
+    height: 200px;
 }
 
 .nav-link {
     color: white;
 }
+
 h2 {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 h5 {
     text-align: center;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
+.carousel-container {
+    height: 50%;
+    width: 100%;
+}
+
 .form-control {
     width: 40px;
 }
@@ -33,11 +31,11 @@ h5 {
     width: 40px;
 }
 @media (max-width: 600px) {
-    nav, footer, header body .container{
+    nav, footer, header, body .container{
         width: 100%;
    }}
   @media (max-height: 250px) {
-    nav, footer, heade, body  .container{
+    nav, footer, header, body  .container{
         width: 100%;
    }
   }

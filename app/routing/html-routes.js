@@ -14,4 +14,12 @@ module.exports = function (app) {
     response.sendFile(path.join(__dirname + '/../public/blog.html'));
   });
 
+  app.get('/training', function (request, response) {
+    response.sendFile(path.join(__dirname + '/../public/training.html'));
+  });
+
+  app.get('/bills', function (request, response) {
+    response.sendFile(path.join(__dirname + '/../public/bills.html'));
+  });
+
 };
