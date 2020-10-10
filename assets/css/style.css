@@ -1,0 +1,87 @@
+body{
+    background-color: royalblue;
+}
+
+.nav-link {
+    color: white;
+}
+.btn {
+    background-color: rgb(237, 24, 73);
+}
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.carousel-caption {
+    color: rgb(237, 24, 73);
+}
+.carousel-container {
+    height: 50%;
+    width: 100%;
+}
+.footer {
+    background-color: rgb(135,145,152);
+}
+.form-control {
+    width: 40px;
+}
+.option{
+    width: 40px;
+}
+.blog-list {
+    margin: 0 auto;
+    margin-top: 75px;
+}
+input.new-item:focus {
+    outline: none;
+} 
+.list-group-item > button.delete,
+.list-group-item > button.complete {
+    float: right;
+    height: 25px;
+    margin-left: 5px;
+}
+.edit {
+    width: 100%;
+}
+ 
+@media (max-width: 600px) {
+    nav, footer, header, body .container{
+        width: 100%;
+   }}
+  @media (max-height: 250px) {
+    nav, footer, header, body  .container{
+        width: 100%;
+   }
+  }
+  @media (min-width: 576px) {
+    nav, footer, header, body .container{
+        padding: 0px;
+   }
+  }
+  @media (min-width: 768px) {
+    nav, footer, header, body .container{
+        padding: 0px;
+   }
+  } 
+  @media (min-width: 992px) {
+    nav, footer, header, body .container {
+        padding: 0px;
+   }
+  }
+   @media (min-width: 1200px) {
+    nav, footer, header, body  .container {
+        padding: 0px; 
+   }}
