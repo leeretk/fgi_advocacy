@@ -1,98 +1,105 @@
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>AdvocateFinder-Home</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <link rel="stylesheet" href="app\assets\css\style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>AdvocateFinder-Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="app\assets\css\style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+</head>
 
-  <body>
+<body>
 
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+      <img src="https://raw.githubusercontent.com/leeretk/fgi_advocacy/master/assets/images/fgi_logo.png"
+        class="d-block w-40 h-40" alt="logo">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+    <hr>
 
-
-    <div class="container">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg">
-        <img src="https://raw.githubusercontent.com/leeretk/fgi_advocacy/master/assets/images/fgi_logo.png" class="d-block w-40 h-40" alt="logo">
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto">
-          </ul>
-        </div>
-      </nav>
-      <!-- End Navigation -->
-      <hr>
-      
-      <h1>FGI Advocacy Site</h1>
-      <br>
+    <h1>FGI Advocacy Site</h1>
+    <br>
 
     <a href="/"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-      <h4><span class="glyphicon glyphicon-list-alt"></span> Home</h4>
-    </button></a>
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Home</h4>
+      </button></a>
     <a href="/survey"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-      <h4><span class="glyphicon glyphicon-list-alt"></span> Survey</h4>
-    </button></a>
-    <a href="/training"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-      <h4><span class="glyphicon glyphicon-list-alt"></span> Training</h4>
-    </button></a>
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Survey</h4>
+      </button></a>
+    <a href="/training"><button type="button" class="btn btn-lg"
+        style="background-color: rgb(237, 24, 73); color: white">
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Training</h4>
+      </button></a>
     <a href="/bills"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-      <h4><span class="glyphicon glyphicon-list-alt"></span> Bills</h4>
-    </button></a>
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Bills</h4>
+      </button></a>
     <a href="/blog"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-      <h4><span class="glyphicon glyphicon-list-alt"></span> Blog</h4>
-    </button></a>
+        <h4><span class="glyphicon glyphicon-list-alt"></span> Blog</h4>
+      </button></a>
 
     <hr>
 
     <div class="jumbotron" style="background-color: lightgrey;">
-      <h1><img src="https://img.icons8.com/ios-filled/100/000000/comments.png"/> Blog</h1>
-        <hr>
-        <div>
+      <h1><img src="https://img.icons8.com/ios-filled/100/000000/comments.png" /> Blog</h1>
 
-          <a href="/survey"><button type="button" class="btn btn-lg" style="background-color: rgb(237, 24, 73); color: white">
-              <h4><span class="glyphicon glyphicon-list-alt"></span> Add Blog Post</h4>
-            </button></a>
-   
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 offset-md-3">
-                  <ul class="list-group blog-list">
-                    <li class="list-group-item new-item">
-                      <form id="blog-form">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-10">
-                              <input class="new-item form-control" placeholder="Add a blog" type="text" />
-                            </div>
-                            <div class="col-2">
-                              <button type="submit" class="btn btn-success">Add Blog Post</button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </li>
-                    <span class="blog-container">
-                    </span>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Custom Script -->
-            <script src="js/view.js" type="text/javascript"></script>
+      <br>
 
-
+      <div class="row">
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <a href="/"><button type="button" class="btn" style="background-color: rgb(237, 24, 73); color: white">
+                <h4><span class="glyphicon glyphicon-list-alt"></span> Add Blog Post</h4>
+              </button></a></span>
         </div>
-<hr>          
 
-  
-      </body>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <hr>
+      <br>
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-2 border border-dark text-center" style="color: white; font-weight: bolder; background-color: black;"> Date</div>
+          <div class="col-1 border border-dark text-center" style="color:white; font-weight: bolder; background-color: black;"> ID</div>
+          <div class="col-8 border border-dark text-center" style="color: white; font-weight: bolder; background-color: black;"> Blog Post</div>
+          <div class="col-1 border border-dark text-center" style="color:white; font-weight: bolder; background-color: black;"> Delete Button</div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 border border-dark text-center" style="color: black; background-color: white; "> Date input</div>
+          <div class="col-1 border border-dark text-center" style="color: black;  background-color: white;"> ID input</div>
+          <div class="col-8 border border-dark" style="color: black; background-color: white;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum voluptatum facere necessitatibus commodi obcaecati pariatur totam odio deserunt ducimus. Quasi et vero dicta nostrum, iusto ducimus quis quidem commodi!</div>
+          <div class="col-1 border border-dark text-center" style="color: red; font-weight: bolder;background-color: white;"> X </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <!-- Custom Script -->
+  <script src="js/view.js" type="text/javascript"></script>
+
+
+  </div>
+
+</body>
 
 </html>
