@@ -14,7 +14,8 @@
     "mysql2": "^2.2.5",
     "path": "^0.12.7",
     "pg-promise": "^10.6.1",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "sequelize-permissions": "0.0.12"
   },
   "devDependencies": {
     "sequelize-cli": "^6.2.0"
